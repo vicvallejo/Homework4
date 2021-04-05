@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Java Quizz</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="./assets/style.css" />
+</head>
+<!-- section for displaying timer and hishscore link-->
+<header class="header">
+    <div id="timer">
+    </div>
+    <div><a id="HScores">View High Scores</a>
+    </div>
+</header>
+<main>
+    <body>
+        <!-- welcome page-->
+        <section class="inicio">
+            <p>Welcome to JavaScript proficiency Quizz, press Begin Button to start, GOOD LUCK !!!!</p>
+            <button id="Begin">Begin Game</button>
+        </section>
+        <aside class="quiz">
+            <!-- Questions are shown-->
+            <p id="question">
+            </p>
+            <ol>
+                <li id="AA">
+                </li>
+                <li id="AB">
+                </li>
+                <li id="AC">
+                </li>
+                <li id="AD">
+                </li>
+            </ol>
+            <!-- correct or incorrect-->
+            <div id="coin"></div>
+        </aside>
+        <!-- results are shown-->
+        <div class="result">
+            <ul>
+                <li>
+                    <p id="YScore">Your Score</p>
+                </li>
+                <li>
+                    <p>Enter Your Initials</p>
+                    <input type="text" id="YName">
+                    <input type="submit" id="Bsave" display="none">
+                </li>
+            </ul>
+        </div>
+    </body>
+    <!-- high scores-->
+    <footer class="foot">
+        <h1 id="H1tit">High Scores</h1>
+        <ul id="HsList">
+        </ul>
+        <button id="BReset">Reset High Scores</button>
+        <button id="backto">Back to quizz</button>
+    </footer>
+</main>
+<script src="./assets/script.js"></script>
+</html>

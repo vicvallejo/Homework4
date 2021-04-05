@@ -1,0 +1,129 @@
+.header  {
+    display: block;
+    flex-wrap: wrap;
+    flex: auto;
+    border-bottom: 4px dotted blue;
+          
+}
+
+#timer {
+text-align: center;
+font-size: 48px;
+height: 50px;
+background-color: darkblue;
+color: white;
+}
+
+#HScores {
+text-align: left;
+border-bottom: 4px; 
+}
+
+.header a:hover {
+    color: blue;
+}
+
+
+
+.inicio  {
+ font-size: large;   
+ justify-content: center;
+}
+
+
+#Begin  {
+
+}
+
+
+
+.quiz{
+display: none;
+flex: auto;
+}
+
+.quiz ol{
+background: #3399ff;
+padding: 20px;
+}
+
+.quiz li{
+    background: #cce5ff;
+    margin: 5px;
+
+}
+
+#question{
+    background: darkgray;
+    text-justify: auto;
+    font-size: medium;
+}
+
+.quiz li:hover {
+    color: orangered;
+}
+
+
+#AA  {
+
+}
+
+#AB  {
+  
+}
+
+#AC  {
+   
+}
+
+#AD  {
+  
+}
+
+.result{
+    display: none;
+    flex: auto;
+    
+}
+
+.result ul{
+    list-style-type: none;
+}
+
+#YName  {
+
+}
+
+#BSave  {
+    cursor: pointer;
+}
+
+
+
+
+.foot{
+display: none;
+    
+}
+
+
+
+
+#backto{
+    cursor: pointer;
+}
+
+
+#H1tit{
+    cursor: pointer;
+}
+
+
+#HsList{
+
+}
+
+#BReset{
+    cursor: pointer;
+}
+
